@@ -29,8 +29,6 @@
   margin: 1.5rem;
   text-shadow: 2px 2px 4px #efebeb;
 color: #000000;
-animation: blink 2s infinite;
--webkit-animation: blink 2s infinite;
 }
 	
 	
@@ -39,7 +37,8 @@ animation: blink 2s infinite;
   margin: 0.5rem;
   text-shadow: 2px 2px 4px #efebeb;
 color:rgb(243, 237, 237);
-
+animation: blink 2s infinite;
+-webkit-animation: blink 2s infinite;
 }
 
 
