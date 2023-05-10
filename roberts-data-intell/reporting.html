@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+<head>
+<title>Colin Roberts Portfolio</title>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" type="text/css" href="responsive2000.css">
+
+<link rel="stylesheet" type="text/css" href="responsive1300.css">
+<link rel="stylesheet" type="text/css" href="responsive1150.css">
+<link rel="stylesheet" type="text/css" href="responsive_mobile800.css">
+
+<link rel="stylesheet" type="text/css" href="responsive_mobile400.css">
+<link rel="stylesheet" type="text/css" href="responsive_mobile300.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="icon" type="x-icon" href="img/favicon.ico">
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<script src="js/script.js" defer></script>
+<script src="js/returntotop.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+
+ 
+    <div class="brand-title"><a href="index.html">Colin Roberts Portfolio</a></div>
+    <a href="#" class="toggle-button">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </a>
+    <div class="navbar-links">
+      <ul>
+        <li><a href="index.html">Letter</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="certificates.html">Certificates</a></li>
+        <li><a href="Reporting.html">Reporting</a></li>
+        <li><a href="Analyzing.html">Analyzing</a></li>
+        <li><a href="Databases.html">Databases</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+</div>
+</nav>
+</div>
+</div>
+</div>
+ </header>
+
+<!----------------------------------------------------------LEFT SECTION TOP--------------------------------------------------------->
+<!----------------------------------------------------------1ST LEFT IMG--------------------------------------------------------->
+<div class="row">
+  <div class="col-3">
+    <center><p></p></center>
+  <center><img id="myImg2" src="img/line2.png" alt="Line Graph"></center>
+  
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+      
+      <script>
+      // Get the modal
+      var modal = document.getElementById('myModal');
+      
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('myImg2');
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+  
+  
+  </script>
+<br>
+
+  <center><p></p></center>
+  <center><img id="myImg3" src="img/pie1.png" alt="Pie Charts"></center>
+  
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+      
+      <script>
+      // Get the modal
+      var modal = document.getElementById('myModal');
+      
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('myImg3');
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+  
+  
+  </script>
+<br>
+  <!------------------------------------------------------1st row ----2ND left --------------------------------------------------------->
+  <center><img id="myImg4" src="img/map.png" alt="Global Map Chart"></center>
+  
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+  
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById('myImg4');
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+  </script>
+  <br>
+  <!------------------------------------------------------1st row ----3RD left--------------------------------------------------------->
+  <center><img id="myImg5" src="img/range2.png" alt="Range Chart"></center>
+  
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+  
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById('myImg5');
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+  </script>
+  <br> 
+<!-------------------------------------------------------1st row---4 img--------------------------------------------------------->
+<center><img id="myImg6" src="img/linebar.png" alt="Line Bar Graph"></center>
+  
+<!-- The Modal -->
+<div id="myModal" class="modal">
+ <span class="close">&times;</span>
+ <img class="modal-content" id="img01">
+ <div id="caption"></div>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg6');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+ modal.style.display = "block";
+ modalImg.src = this.src;
+ captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+ modal.style.display = "none";
+}
+</script>
+<br> 
+  
+
+      
+</div>    
+
+
+<!----------------------------------------------------------MID SECTION TOP--------------------------------------------------------->	
+<div class="col-6">
+  <div id="cover3"></div>	
+    <br>
+  <h2> Data Reporting:</h2>
+  <p>
+    As a data engineer, I understand the importance of presenting data in a clear and visually appealing way that can be easily understood and communicated to stakeholders. This requires strong data reporting skills, which involve the use of various tools and programs to create meaningful and informative data visualizations.
+    <br><br>
+I have experience using a wide range of data reporting tools and programs, including Tableau, Power BI, Excel, and Google Sheets. Each of these programs offers unique features and capabilities for creating different types of graphs and visualizations that can effectively communicate data insights.
+<br><br>
+For instance, Tableau is a powerful data visualization tool that allows for the creation of interactive dashboards and charts. It offers a wide range of options for customizing graphs and visualizations, such as adding filters and parameters, creating calculated fields, and integrating multiple data sources.
+<br><br>
+Power BI is another popular data reporting tool that provides powerful data analysis and visualization capabilities. It offers a range of visualization options, including bar charts, line charts, pie charts, and scatter plots, and allows for the creation of interactive reports and dashboards.
+<br><br>
+Excel and Google Sheets are also commonly used data reporting tools that offer a range of charting and graphing options. They are particularly useful for creating basic graphs and visualizations quickly and easily.
+<br><br>
+In addition to these programs, I also have experience working with programming languages such as Python and R to create custom data visualizations. These languages provide more advanced capabilities for data analysis and visualization, including the ability to create custom charts and graphs using libraries such as matplotlib, seaborn, and ggplot2.
+<br><br>
+Overall, my data reporting skills allow me to effectively communicate data insights to stakeholders in a way that is easy to understand and actionable. By using a range of tools and programs to create visually appealing and informative data visualizations, I am able to ensure that stakeholders are able to make informed decisions based on the data.
+</p>
+</div>
+
+<!----------------------------------------------------------RIGHT SECTION TOP--------------------------------------------------------->
+<!----------------------------------------------------------1ST RIGHT IMG--------------------------------------------------------->
+<div class="row">
+  <div class="col-10">
+    <center><p></p></center>
+    <center><img id="myImg7" src="img/barline.png" alt="Bar and Line Chart"></center>
+    
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
+        
+        <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById('myImg7');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+    
+    
+    </script>
+  <br>
+    <center><p></p></center>
+   <center><img id="myImg8" src="img/line1.png" alt="Line Graph"></center>
+  
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+  
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById('myImg8');
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+  </script>
+  <br>
+
+  <!----------------------------------------------------------2RD RIGHT IMG--------------------------------------------------------->
+  <center><img id="myImg9" src="img/graph_bubble1.png" alt="Bubble Graph"></center>
+  
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+  
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById('myImg9');
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+  </script>
+  <br>
+  
+  <!----------------------------------------------------------MID 4--------------------------------------------------------->
+  <center><img id="myImg10" src="img/range1.png" alt="Range chart"></center>
+  
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="img01">
+    <div id="caption"></div>
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById('myModal');
+  
+  // Get the image and insert it inside the modal - use its "alt" text as a caption
+  var img = document.getElementById('myImg10');
+  var modalImg = document.getElementById("img01");
+  var captionText = document.getElementById("caption");
+  img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+  }
+  
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+  
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function() { 
+    modal.style.display = "none";
+  }
+  </script>
+  <br>
+
+<!----------------------------------------------------------MID 5 IMG--------------------------------------------------------->
+  <center><img id="myImg11" src="img/pie2.png" alt="Multiple Pie Chart"></center>
+  
+      <!-- The Modal -->
+      <div id="myModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+        <div id="caption"></div>
+      </div>
+      
+      <script>
+      // Get the modal
+      var modal = document.getElementById('myModal');
+      
+      // Get the image and insert it inside the modal - use its "alt" text as a caption
+      var img = document.getElementById('myImg11');
+      var modalImg = document.getElementById("img01");
+      var captionText = document.getElementById("caption");
+      img.onclick = function(){
+        modal.style.display = "block";
+        modalImg.src = this.src;
+        captionText.innerHTML = this.alt;
+      }
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() { 
+        modal.style.display = "none";
+      }
+  
+  
+  </script>
+  
+  </div>
+
+</div>
+
+</div>
+
+
+
+<!----------------------------------------------------------FOOTER--------------------------------------------------------->
+<!----------------------------------------------------------FOOTER--------------------------------------------------------->
+<!----------------------------------------------------------FOOTER--------------------------------------------------------->
+<footer class="main-footer">
+
+
+  <div class="row">
+  <div class="col-13">
+  </div>
+  <div class="col-14">
+    <div class="footer-link"> 
+      <ul>
+        <li><a href="index.html">Letter</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="certificates.html">Certificates</a></li>
+        <li><a href="Reporting.html">Reporting</a></li>
+        <li><a href="Analyzing.html">Analyzing</a></li>
+        <li><a href="Databases.html">Databases</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+  </div>
+  <section id="footer">
+      <div class="container text-center">
+        <a href="https://my.indeed.com/p/colinr-zzg9wzr" class="indeed"></a>
+        <a href="https://www.linkedin.com/in/colin-roberts-996354165/" class="linkedin"></a>
+        <a href="https://www.facebook.com/colin.roberts.9028" class="facebook"></a>
+        <a href="mailto:colinroberts.contact@gmail.com" class="gmail"></a>
+    </ul>
+   
+    </section> 
+  </div>
+   <div class="col-15">
+  
+  </div>
+  </div> 
+  <div class="row">
+    <div class="col-16">
+  </div> 
+   <div class="col-17">
+   
+    <center><bold>
+    <p>Copyright &copy; 2023 Colin Roberts Designs</p>
+   </center></bold>
+  </div>
+   <div class="col-18">
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="iconify" data-icon="emojione-v1:top-arrow"></span><span class="iconify" data-icon="emojione:top-hat"></span></button>
+  </div> 
+  
+  </div>
+  </footer>
+
+
+</body>
+</html>

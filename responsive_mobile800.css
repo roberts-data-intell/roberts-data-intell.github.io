@@ -1,0 +1,906 @@
+@media only screen and (max-width: 800px){
+ 
+    /*---------------------------------------------Universal-------------------------------------------------------*/
+    
+    *{
+      box-sizing:border-box;
+    }
+   
+     
+   
+   
+   /*------------------HEADER--------------------------------------------------------------------------------------------*/
+   .brand-title {
+    font-size: 1.50rem;
+    margin: 0.5rem;
+    text-shadow: 2px 2px 4px #efebeb;
+  color:rgb(243, 237, 237);
+ 
+  }
+
+  .email {
+    font-size: 0.9rem;
+    margin: 0.5rem;
+    text-shadow: 2px 2px 4px #efebeb;
+  color:rgb(243, 237, 237);
+ 
+  }
+  
+  .brand-title :hover {
+    font-size: 1.0rem;
+    margin: .25rem;
+    text-decoration: none;
+  }
+     
+   .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    background-image: url("img/bigdata_background.jpg");
+background-color: #2B86C5;
+font-size: 1rem;
+}
+
+.toggle-button {
+    display: flex;
+    
+}
+
+.navbar-links {
+    display: none;
+    width: 100%;
+}
+
+.navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+}
+
+.navbar-links ul li {
+    text-align: center;
+}
+
+.navbar-links ul li a {
+    padding: .5rem 1rem;
+}
+
+.navbar-links.active {
+    display: flex;
+}
+
+
+
+.toggle-button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: rgb(240, 238, 238);
+  border-radius: 10px;
+}
+   
+   
+   /*-------------------------------------------------------body header h1 h2 etc basic-------------------------------------------------*/
+   
+   
+     body {background-color: white-space;
+       margin: 0;
+       padding: 0;
+       font-family: Arial, Helvetica, sans-serif;
+     }
+     
+   
+   
+   
+   
+   h1{
+     
+        background-repeat: no-repeat; 
+   
+   }
+   
+   h2{
+    padding:10px ;
+    display: flex;
+    font-size: .5rem;
+  }
+  
+  h3{
+      padding:10px ;
+      font-size: .75rem;
+    }
+   
+   h4{
+       text-align: center;
+       font-size: bold 20px;
+       text-shadow: #363838;
+     }
+   
+   /*---Form Please contact us----*/
+     h5{
+       text-align: center;
+       text-decoration: underline;
+       font-size: 25em;
+     }
+   
+   
+     /*---Form submit button text----*/
+     h6{
+       font-size: 15em;
+       color: white;
+     }
+   
+   p{
+       font-size: bold 3px;
+       font-weight: 3px;
+       padding: 10px;
+   }
+   
+   
+   
+   /*-------------------------------------------------------Contact Form-------------------------------------------------*/
+   
+   .container{
+     width:500px;
+     box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07);
+     padding:2em;
+     background-image: linear-gradient(225deg, #230792 0%, #39c8de 50%, #2B86C5 100%);
+     background-color:rgb(38, 125, 168);
+     border-radius: 15%;
+   }
+   .form-group{
+     margin-bottom:1.5em;
+     transition:all .5s;
+   }
+   .form-label{
+     font-size:1em;
+     color:var(--font-color);
+     display:block;
+     opacity:0;
+     transition: all .5s;
+     transform:translateX(-75px);
+   }
+   .form-control{
+     box-shadow:none;
+     border-radius:0;
+     border-color:#ccc;
+     border-style:none none solid none;
+     width:100%;
+     font-size:1.25em;
+     transition:all .6s;
+   }
+   .form-control::placeholder{
+     color:rgb(191, 237, 253);
+   }
+   .form-control:focus{
+     box-shadow:blue;
+     border-color:var(--font-hover-color);
+     outline:blue;
+   }
+   .form-group:focus-within{
+     transform:scale(1.1,1.1);
+   }
+   
+   .form-control:invalid:focus{
+     border-color:rgb(208, 229, 21);
+   }
+   .form-control:valid:focus{
+     border-color:rgb(57, 153, 227);
+   }
+   
+   .btn{
+     position: center;
+     background-image: linear-gradient(225deg, #9787d4 0%, #39c8de 50%, #7fd0ea 100%);
+     background-color:rgb(38, 125, 168);
+     border:2px solid rgb(117, 168, 235);
+     border-radius:25%;
+     font-size:1em;
+     padding:10 50px;
+     text-transform:uppercase;
+     
+   }
+   .btn:hover{
+     background-image: linear-gradient(225deg, #230792 0%, #39c8de 50%, #2B86C5 100%);
+     color: white;
+     box-shadow:blue;
+   }
+   textarea{
+     resize:none;
+   }
+   
+   
+   
+   .focused > .form-label{
+     opacity:1;
+     transform:translateX(0px);
+   
+   }
+   
+   .form-invalid{
+   outline: 2px solid rgb(147, 13, 64) !important;
+   }
+   
+   
+   /*---------------------------------------------------IMAGE SLIDESHOW MAIN------------------------------------------------*/
+#myImg1 {
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height:auto;
+    padding-bottom: 50px;
+  }
+  
+  #myImg1:hover {opacity: 0.7;
+    box-shadow: black 50%;
+  }
+  
+  #myImg2 {
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height:auto;
+    padding-bottom: 50px;
+  }
+  
+  #myImg2:hover {opacity: 0.7;
+    box-shadow: black 50%;
+  }
+  
+  #myImg3 {
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height:auto;
+    padding-bottom: 50px;
+  }
+  
+  #myImg3:hover {opacity: 0.7;
+    box-shadow: black 50%;
+  }
+  
+  #myImg4 {
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height:auto;
+    padding-bottom: 50px;
+  }
+  
+  #myImg4:hover {opacity: 0.7;
+    box-shadow: black 50%;
+  }
+  
+  #myImg5 {
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height:auto;
+    padding-bottom: 50px;
+  }
+  
+  #myImg5:hover {opacity: 0.7;
+    box-shadow: black 50%;
+  }
+  
+  #myImg6 {
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height:auto;
+    padding-bottom: 50px;
+  }
+  
+  #myImg6:hover {opacity: 0.7;
+    box-shadow: black 50%;
+  }
+  
+  #myImg7 {
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height:auto;
+    padding-bottom: 50px;
+  }
+  
+  #myImg7:hover {opacity: 0.7;
+    box-shadow: black 50%;
+  }
+  
+  #myImg8 {
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height:auto;
+    padding-bottom: 50px;
+  }
+  
+  #myImg8:hover {opacity: 0.7;
+    box-shadow: black 50%;
+  }
+  
+  #myImg9 {
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height:auto;
+    padding-bottom: 50px;
+  }
+  
+  #myImg9:hover {opacity: 0.7;
+    box-shadow: black 50%;
+  }
+  
+  #myImg10 {
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height:auto;
+    padding-bottom: 50px;
+  }
+  
+  #myImg10:hover {opacity: 0.7;
+    box-shadow: black 50%;
+  }
+  
+  #myImg11 {
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height:auto;
+    padding-bottom: 50px;
+  }
+  
+  #myImg11:hover {opacity: 0.7;
+    box-shadow: black 50%;
+  }
+  
+  #myImg12 {
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height:auto;
+    padding-bottom: 50px;
+  }
+  
+  #myImg12:hover {opacity: 0.7;
+    box-shadow: black 50%;
+  }
+  
+  #myImg13 {
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height:auto;
+    padding-bottom: 50px;
+  }
+  
+  #myImg13:hover {opacity: 0.7;
+    box-shadow: black 50%;
+  }
+  
+  #myImg14 {
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height:auto;
+    padding-bottom: 50px;
+  }
+  
+  #myImg14:hover {opacity: 0.7;
+    box-shadow: black 50%;
+  }
+  
+  #myImg15 {
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height:auto;
+    padding-bottom: 50px;
+  }
+  
+  #myImg15:hover {opacity: 0.7;
+    box-shadow: black 50%;
+  }
+  
+  #myImg16 {
+    border-radius: 1px;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100px;
+    height:auto;
+    padding-bottom: 50px;
+  }
+  
+  #myImg16:hover {opacity: 0.7;
+    box-shadow: black 50%;
+  }
+
+  /* -----IMAGE ( USE SVG 4 MAX QUALITY)------ */
+  .modal {
+    display: flex; 
+     flex-wrap:flex;
+    position: fixed; 
+    z-index: 1; 
+    padding-top: 10px; 
+    left: 0;
+    float:center;
+    width: 100%; 
+    height: 100%; 
+    overflow: auto; 
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.9); 
+  }
+  
+/* SLIDE SHOW IMAGES) */
+  .modal-content {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: auto;
+  }
+  
+/* -----Caption Text -----*/
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+
+  .modal-content, #caption {  
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform: scale(0.1)} 
+    to {transform: scale(1)}
+  }
+  
+ /* -----Close X------ */
+  .close {
+    float: bottom right !important;
+    top: 15px;
+    padding-right: 35px;
+    color: #f8f8fb;
+    font-size: 50px;
+    font-weight: bold;
+    transition: 0.3s;
+    box-shadow: #bbb;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+   
+   /*--------------------------------------------------------------------Download Button----------------------------------------*/
+   
+    .download {
+      background-color: white;
+     content: url('https://api.iconify.design/gis/layer-download.svg?color=blue&width=50&height=50');
+     background-repeat: no-repeat;
+     position: fixed;
+     padding: 2px;
+     border-radius: 25%;
+     z-index: 1;
+   }
+   
+   .download:hover {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 25%;
+   }
+   
+   /*----------------------------------------------------------- graphics Page for images---------------------------------------------------*/
+   
+   
+   
+   /* Slideshow container */
+   .slideshow-container {
+     max-width: 500px;
+     max-height: 500px;
+     position: relative;
+     margin: auto;
+     padding-top: 50px;
+   }
+   
+   /* Hide the images by default */
+   .mySlides {
+     display: none;
+   }
+   
+   /* Next & previous buttons */
+   .prev, .next {
+     cursor: pointer;
+     position: absolute;
+     top: 50%;
+     width: auto;
+     margin-top: -22px;
+     padding: 16px;
+     color: rgb(54, 124, 204);
+     font-weight: bold;
+     font-size: 18px;
+     transition: 0.6s ease;
+     border-radius: 0 3px 3px 0;
+     user-select: none;
+   }
+   
+   
+   .next {
+     right: 0;
+     border-radius: 3px 0 0 3px;
+   }
+   
+  
+   .prev:hover, .next:hover {
+     background-color: rgba(0,0,0,0.8);
+   }
+   
+   /* Caption text */
+   .text {
+     color: #f2f2f2;
+     font-size: 15px;
+     padding: 8px 12px;
+     position: absolute;
+     bottom: 8px;
+     width: 100%;
+     text-align: center;
+   }
+   
+  
+   .numbertext {
+     color: #f2f2f2;
+     font-size: 12px;
+     padding: 8px 12px;
+     position: absolute;
+     top: 0;
+   }
+   
+ 
+   .dot {
+     cursor: pointer;
+     height: 15px;
+     width: 15px;
+     margin: 0 2px;
+     background-color: #bbb;
+     border-radius: 50%;
+     display: inline-block;
+     transition: background-color 0.6s ease;
+   }
+   
+   
+   
+   .fade {
+     animation-name: fade;
+     animation-duration: 1000.5s;
+   }
+   
+   @keyframes fade {
+     from {opacity: 1}
+     to {opacity: 1}
+   }
+   
+   
+   
+   /*----------------------------------------------------------- FOOTER---------------------------------------------------*/
+   
+   .main-footer{
+     
+     height:100%;
+    background-image: linear-gradient(225deg, #230792 0%, #39c8de 50%, #2B86C5 100%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    z-index:1;
+    
+    background-repeat: no-repeat;
+    width: 100%;
+    }
+    
+    
+    
+    
+    /*----------------------------------------------------------- footer social---------------------------------------------------*/
+    #footer .indeed {
+     content: url('https://api.iconify.design/simple-icons/indeed.svg');
+    
+     background-repeat: no-repeat;
+     
+     background-repeat: no-repeat;
+     
+    }
+    
+    #footer .linkedin {
+     content: url('https://api.iconify.design/akar-icons/linkedin-v2-fill.svg');
+     background-repeat: no-repeat;
+    
+    }
+    #footer .facebook {
+     content: url('https://api.iconify.design/cib/facebook-f.svg');
+     background-repeat: no-repeat;
+    
+    }
+    
+    #footer .gmail {
+     content: url('https://api.iconify.design/fontisto/email.svg');
+     background-repeat: no-repeat;
+     
+    }
+    
+    .indeed:hover {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 35%;
+    }
+    
+    .linkedin:hover {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 35%;
+    }
+    
+    .facebook:hover {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 35%;
+    }
+    
+    .gmail:hover {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     border-radius: 35%;
+    }
+    
+    /*------------------------------------------------------------------Footer navigation--------------------------------------------------*/
+    
+    footer { background-color: rgb(151, 206, 236);
+           width: 100%;
+           height: 50px;
+       font-size: 1em;
+       font-style: none;
+       text-align: left;
+       text-shadow: 2px 2px 4px #bfe0e9;
+          }
+    
+    
+    
+    
+    
+    .footer-link ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      background-color: clear;
+    }
+    
+    .footer-link li {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      display: inherit;
+      
+    }
+    
+    /*---------------------------change for resize---------------*/
+    .footer-link li a {
+      display: block;
+      color: #000;
+      padding: 2px 2px;
+      text-decoration: none;
+      font-size: 15px;
+    }
+    
+    .footer-link li a:hover:not(.active) {
+     background-image: linear-gradient(225deg, #230792 0%, #39c8de 50%, #2B86C5 100%);
+     background-color:rgb(38, 125, 168);
+     color: white;
+     text-decoration: none;
+     border-radius: 20%, 20%, 20%, 20%;
+    }
+    
+    .footer-link .active {
+     background-color: #87c9f1;
+    }
+    
+    /*--------------------------------------------social nav sizes--------------------------------------------------*/
+    #footer a {
+     height: 56px;
+     width: 50px;
+     display: inline-block;
+     
+    }
+    
+   
+   
+   /*--------------------------------------------------------Columns set up------------------------------------------------*/
+   
+   
+   
+   
+   .row::after {
+     content: "";
+     clear: both;
+     display: table;
+     height: 100%;
+   }
+   
+   [class*="col-"] {
+     float: center;
+     padding: 0px;
+     border: 1px solid clear;
+   
+   }
+   
+   .col-1 {width: 25%;
+   
+   }
+   .col-2 {width: 100%;
+   
+   }
+   .col-3 {width: 25%;
+   
+   }
+   
+   .col-4 {width: 20%;
+     float: right;
+   
+   }
+   .col-5 {width: 41.66%;
+   
+   }
+   .col-6 {width: 50%;
+   
+   }
+   .col-7 {width: 25%;
+   
+   }
+   .col-8 {width: 66.66%;
+   
+   }
+   .col-9 {width: 25%;
+    
+   }
+   .col-10 {width: 25%;
+   
+   }
+   .col-11 {width: 100%;
+   
+   }
+   .col-12 {width: 25%;
+    
+   }
+   .col-13 {width: 25%;
+   
+   }
+   .col-14 {width: 50%;
+   
+   }
+   .col-15 {width: 25%;
+   
+   }
+   .col-16 {width: 25%;
+    
+   }
+   .col-17 {width: 50%;
+   
+   }
+   .col-18 {width: 25%;
+   
+   }
+   
+/*-------------------------------------------------------------------top pictures-----------------------------------------------*/
+
+#cover1 { background-image: url(img/cover1.png);
+  background-color: white;
+  background-size: 100% 100%;
+  height:75px;
+display: flex;
+object-fit: cover;
+-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+#cover2 { background-image: url(img/cover2.png);
+  background-color: white;
+  background-size: 100% 100%;
+  height:75px;
+display: flex;
+object-fit: cover;
+-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+#cover3 { background-image: url(img/cover3.png);
+  background-color: white;
+  background-size: 100% 100%;
+  height:75px;
+display: flex;
+object-fit: cover;
+-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+#cover4 { background-image: url(img/cover4.png);
+  background-color: white;
+  background-size: 100% 100%;
+  height:75px;
+display: flex;
+object-fit: cover;
+-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+#cover5 { background-image: url(img/cover5.png);
+  background-color: white;
+  background-size: 100% 100%;
+  height:75px;
+display: flex;
+object-fit: cover;
+-webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+   
+  
+   
+
+   
+   
+   
+             
+   /*--------------------------------------------------------------------Return to top button------------------------------------------------*/
+   #myBtn {
+     display: none;
+     position: fixed;
+     bottom: 20px;
+     right: 00px;
+     z-index: 99;
+     font-size: 35px;
+     border: none;
+     outline: none;
+     background-image: linear-gradient(225deg, #230792 0%, #39c8de 50%, #2B86C5 100%);
+     color: white;
+     cursor: pointer;
+     padding: 2px;
+     border-radius: 25% 25% 25% 25%;
+   }
+   
+   #myBtn:hover {
+     background-color: rgb(86, 199, 224);
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   }
+   
+  /*-------------------------------------------------------------------- Animation Page-------------------*/
+#wrapper { width: 70%;
+  height: auto;
+  margin: auto auto auto auto;
+background-color: white;
+color: white;
+box-shadow: 5px 5px 5px #000000;
+}
+
+
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
