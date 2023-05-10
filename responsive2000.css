@@ -24,7 +24,16 @@
   background-image: url("img/bigdata_background.jpg");
   width: 100%;
 }
-
+.brand-title_email {
+  font-size: 1.5rem;
+  margin: 1.5rem;
+  text-shadow: 2px 2px 4px #efebeb;
+color: #000000;
+animation: blink 2s infinite;
+-webkit-animation: blink 2s infinite;
+}
+	
+	
 .brand-title {
   font-size: 2.5rem;
   margin: 0.5rem;
@@ -35,14 +44,7 @@ color:rgb(243, 237, 237);
 
 
 
-.brand-title_email {
-  font-size: 1.5rem;
-  margin: 1.5rem;
-  text-shadow: 2px 2px 4px #efebeb;
-color: #000000;
-animation: blink 2s infinite;
--webkit-animation: blink 2s infinite;
-}
+
 
 @keyframes blink {
   78% {
