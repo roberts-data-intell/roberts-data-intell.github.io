@@ -481,6 +481,45 @@ outline: 2px solid rgb(147, 13, 64) !important;
 #myImg17:hover {opacity: 0.7;
   box-shadow: black 50%;
 }	
+
+	
+#myImg18 {
+  border-radius: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 250px;
+  height:auto;
+}
+
+#myImg18:hover {opacity: 0.7;
+  box-shadow: black 50%;
+}
+	
+#myImg19 {
+  border-radius: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 250px;
+  height:auto;
+}
+
+#myImg19:hover {opacity: 0.7;
+  box-shadow: black 50%;
+}	
+	
+#myImg20 {
+  border-radius: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 250px;
+  height:auto;
+}
+
+#myImg20:hover {opacity: 0.7;
+  box-shadow: black 50%;
+}	
+	
+	
 	
  /* -----IMAGE ( USE SVG 4 MAX QUALITY)------ */
 .modal {
