@@ -133,7 +133,7 @@ animation: blink 2s infinite;
   height: 3px;
   width: 100%;
   background-color: rgb(240, 238, 238);
-  border-radius: 10px;
+  border-radius: 0px;
 }
 
 
