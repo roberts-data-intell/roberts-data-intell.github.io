@@ -441,6 +441,44 @@ font-size: 1rem;
     box-shadow: black 50%;
   }
  
+ #myImg18 {
+  border-radius: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100px;
+  height:auto;
+  padding-bottom: 50px;
+  }
+
+#myImg18:hover {opacity: 0.7;
+  box-shadow: black 50%;
+}
+	
+#myImg19 {
+  border-radius: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100px;
+  height:auto;
+  padding-bottom: 50px;
+  }
+
+#myImg19:hover {opacity: 0.7;
+  box-shadow: black 50%;
+}	
+	
+#myImg20 {
+  border-radius: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100px;
+  height:auto;
+  padding-bottom: 50px;
+  }
+
+#myImg20:hover {opacity: 0.7;
+  box-shadow: black 50%;
+}	
  
 
   /* -----IMAGE ( USE SVG 4 MAX QUALITY)------ */
