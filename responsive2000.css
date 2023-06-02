@@ -574,8 +574,8 @@ outline: 2px solid rgb(147, 13, 64) !important;
 .close {
   float: bottom right !important;
   top: 15px;
-  padding-right: 35px;
-  color: #f8f8fb;
+  
+  color: white;
   font-size: 50px;
   font-weight: bold;
   transition: 0.3s;
@@ -584,7 +584,7 @@ outline: 2px solid rgb(147, 13, 64) !important;
 
 .close:hover,
 .close:focus {
-  color: #bbb;
+  color: white;
   text-decoration: none;
   cursor: pointer;
 }
@@ -631,7 +631,7 @@ outline: 2px solid rgb(147, 13, 64) !important;
   top: 50%;
   width: auto;
   margin-top: -22px;
-  padding: 16px;
+
   color: rgb(54, 124, 204);
   font-weight: bold;
   font-size: 18px;
@@ -641,10 +641,7 @@ outline: 2px solid rgb(147, 13, 64) !important;
 }
 
 
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
+
 
 
 .prev:hover, .next:hover {
@@ -707,7 +704,7 @@ outline: 2px solid rgb(147, 13, 64) !important;
    width: 100%;
   height: 300px;
  background-image: linear-gradient(225deg, #230792 0%, #39c8de 50%, #2B86C5 100%);
- box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
  z-index:2;
 
  }
@@ -836,7 +833,6 @@ outline: 2px solid rgb(147, 13, 64) !important;
 [class*="col-"] {
   float: center;
   padding: 0px;
-  border: 1px solid clear;
 
 }
 
@@ -958,7 +954,7 @@ object-fit: cover;
   display: none;
   position: fixed;
   bottom: 20px;
-  right: 30px;
+
   z-index: 99;
   font-size: 30px;
   border: none;
@@ -966,7 +962,7 @@ object-fit: cover;
   background-image: linear-gradient(225deg, #230792 0%, #39c8de 50%, #2B86C5 100%);
   color: white;
   cursor: pointer;
-  padding: 15px;
+ 
   border-radius: 25% 25% 25% 25%;
 }
 
@@ -979,13 +975,6 @@ object-fit: cover;
 
 
 /*-------------------------------------------------------------------- Animation Page-------------------*/
-#wrapper { width: 70%;
-  height: auto;
-  margin: auto auto auto auto;
-background-color: white;
-color: white;
-box-shadow: 5px 5px 5px #000000;
-}
 
 
 
@@ -1008,7 +997,7 @@ box-shadow: 5px 5px 5px #000000;
 
 .inner-div {
   margin: 0 auto;
-  border-radius: 5px;
+
   font-weight: 400;
   color: $black;
   font-size: 1rem;
