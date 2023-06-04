@@ -860,7 +860,7 @@ outline: 2px solid rgb(147, 13, 64) !important;
 .col-7 {width: 25%;
   float: center;
 }
-.col-8 {width: 66.66%;
+.col-8 {width: 10.77%;
 
 }
 .col-9 {width: 25%;
@@ -1075,7 +1075,6 @@ object-fit: cover;
   position: relative;
   top: -60px;
   height: 120px;
-  width: 120px;
   margin: 0 auto;
   border-radius: 50%;
   border: 5px solid $white;
@@ -1174,7 +1173,6 @@ object-fit: cover;
   border:2px solid rgb(117, 168, 235);
   border-radius:25%;
   font-size:1em;
-  padding:10 50px;
   text-transform:uppercase;
   
 }
