@@ -68,7 +68,7 @@
     <!------------------------------------------------------1st left--------------------------------------------------------->
 
     <center><p></p></center>
-    <center><img id="myImg1" src="sales1.jpg" alt="Sales Breakdown"></center>
+    <center><img id="myImg1" src="img/sales1.jpg" alt="Sales Breakdown"></center>
     
         <!-- The Modal -->
         <div id="myModal" class="modal">
@@ -104,7 +104,7 @@
   <br>
 
     <!------------------------------------------------------2nd left--------------------------------------------------------->
-    <center><img id="myImg2" src="sales3.jpg" alt="Customers Breakdown"></center>
+    <center><img id="myImg2" src="img/sales3.jpg" alt="Customers Breakdown"></center>
     
     <!-- The Modal -->
     <div id="myModal" class="modal">
@@ -138,7 +138,7 @@
     <br> 
     
 <!----------------------------------------------------------3rd left--------------------------------------------------------->
-    <center><img id="myImg3" src="sales5.jpg" alt="Data Model"></center>
+    <center><img id="myImg3" src="img/sales5.jpg" alt="Data Model"></center>
     
         <!-- The Modal -->
         <div id="myModal" class="modal">
@@ -201,8 +201,83 @@
 
 <!----------------------------------------------------------RIGHT SECTION TOP--------------------------------------------------------->
 <!----------------------------------------------------------1ST RIGHT IMG--------------------------------------------------------->
+<div class="row">
 
-  </div>
+    <div class="col-7">
+      <br> <br>
+    <center><img id="myImg4" src="img/sales2.jpg" alt="Products Breakdown"></center>
+    
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+          <span class="close">&times;</span>
+          <img class="modal-content" id="img01">
+          <div id="caption"></div>
+        </div>
+        
+        <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+        
+        // Get the image and insert it inside the modal - use its "alt" text as a caption
+        var img = document.getElementById('myImg4');
+        var modalImg = document.getElementById("img01");
+        var captionText = document.getElementById("caption");
+        img.onclick = function(){
+          modal.style.display = "block";
+          modalImg.src = this.src;
+          captionText.innerHTML = this.alt;
+        }
+        
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+        
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() { 
+          modal.style.display = "none";
+        }
+    
+    
+    </script>
+      <br>
+    
+    <!----------------------------------------------------------2nd right--------------------------------------------------------->
+    <center><img id="myImg5" src="img/sales4.jpg" alt="Territory Breakdown"></center>
+    
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+    
+    <script>
+    // Get the modal
+    var modal = document.getElementById('myModal');
+    
+    // Get the image and insert it inside the modal - use its "alt" text as a caption
+    var img = document.getElementById('myImg5');
+    var modalImg = document.getElementById("img01");
+    var captionText = document.getElementById("caption");
+    img.onclick = function(){
+      modal.style.display = "block";
+      modalImg.src = this.src;
+      captionText.innerHTML = this.alt;
+    }
+    
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function() { 
+      modal.style.display = "none";
+    }
+    </script>
+    <br>
+    </div>
+
+</div>
+
+</div>
 
 <!----------------------------------------------------------FOOTER--------------------------------------------------------->
 <!----------------------------------------------------------FOOTER--------------------------------------------------------->
